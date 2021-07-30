@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #E5E5E5;
+    font-family: sans-serif;
+}
+h1{
+    text-size-adjust: 25px;
+}
+h6{
+    color: #dc3545;
+}
+.purchase {
+    background-color: #E76F51;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.container{
+    background-color: #fff;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat2{
+    background-color: none;
+}
+
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    border-color: none
+
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
