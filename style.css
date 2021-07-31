@@ -32,10 +32,18 @@ h6{
 .cat2{
     background-color: none;
 }
+.best{
+    color: #E76F51;
+}
 .images{
     background-color: none;
     margin-top: 25px;
     margin-left: 35px;
+}
+.card-text{
+    text-align: justify;
+    background-color: none
+    
 }
 
 .categories h1{
