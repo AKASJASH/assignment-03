@@ -8,7 +8,16 @@
   <title>Assignment-03</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <head>
+      <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+    </head>
+    <body>
+      <i class="fas fa-user"></i> <!-- uses solid style -->
+      <i class="far fa-user"></i> <!-- uses regular style -->
+      <i class="fal fa-user"></i> <!-- uses light style -->
+      <!--brand icon-->
+      <i class="fab fa-github-square"></i> <!-- uses brands style -->
+    </body>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -46,16 +55,16 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container images">
     <div class="d-flex">
       <div class="card">
-        <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+        <img src="images/feature-bike.jpg" class="card-img-top col-md-9" alt="...">
       </div>
       <div class="card height">
-        <img src="images/feature-bike.jpg" alt="...">
+        <img src="images/feature-bike.jpg" class="card-img-top col-md-9 ml-1" alt="...">
       </div>
       <div class="card">
-        <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+        <img src="images/feature-bike.jpg" class="card-img-top col-md-9" alt="...">
     </div>
   </div>
   <div class="container ">
@@ -64,7 +73,7 @@
         </div>
         <div class=" px-1 align-items-center cat2">
           <h1 class="fw-bolder text-dark">
-            Happy Clients says</h1>
+            Happy <span class="">Clients says</span> </h1>
     </div>
   </div>
 
@@ -86,6 +95,7 @@
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
         </div>
       </div>
     </div>

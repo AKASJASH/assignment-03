@@ -25,12 +25,17 @@ h6{
 .container{
     background-color: #fff;
 }
-.cat1, .cat2, .cat3{
+ cat2{
     padding: 10px 30px;
     border-radius: 10px;
 }
 .cat2{
     background-color: none;
+}
+.images{
+    background-color: none;
+    margin-top: 25px;
+    margin-left: 35px;
 }
 
 .categories h1{
@@ -43,17 +48,4 @@ h6{
     border: none;
     border-color: none
 
-}
-.card-footer{
-    background-color: white;
-    border-top: none;
-}
-#subscribe{
-    height: 300px;
-}
-#subscribe h6{
-    color: gray;
-}
-footer{
-    text-align: center;
 }
